@@ -1,4 +1,4 @@
-- Start Date: (fill me in with today's date, YYYY-MM-DD)
+- Start Date: 2015-03-17
 - RFC PR: (leave this empty)
 - Github Issue: (leave this empty)
 
