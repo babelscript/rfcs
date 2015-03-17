@@ -26,9 +26,6 @@ This section needs a lot of work, however here are some key issues:
 * Statements are always expressions when possible (e.g. if/else, functions return their last value etc.)
 * Support for `@`
 * Existential operator (`?`)
-* I would really like to support some way of making using computed properties in
-  ember more easily. Not an ember-specific feature, but some language featuer that
-  would enable that. Examples: annotations, macros, decorators. This could be useful for lots of other use cases too. I don't believe annotations or decorators are part of ES6 at the moment, however I think they have been discussed.
 
 # Drawbacks
 
