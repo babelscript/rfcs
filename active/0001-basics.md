@@ -26,6 +26,22 @@ This section needs a lot of work, however here are some key issues:
 * Statements are always expressions when possible (e.g. if/else, functions return their last value etc.)
 * Support for `@`
 * Existential operator (`?`)
+* Source map support (Does babel even allow inputting source maps?)
+* Functions
+  * allow single arrow for function declaration without changing lexical `this`
+  * allow double arrow with no arguments or parans (`foo => bar` vs `foo(() => bar)`)
+* Objects and arrays
+  * Support object and array shorthands, including in function calls
+* Lexical Scoping and Variable Safety
+  * Need to review variable hoisting in CS and let behaviour - preferable to adopt `let` instead of `var` and use ES6 scoping semantics
+* support `unless`, postfixed `if` and `unless`
+* ES6 argument syntax instead for splats, destructuring
+* List comprehensions and looping - need to decide how much to support. Comprehensions are probably obsoleted by `map` / `filter` etc at this point?
+* support `until`, postfixed `while` and `until`, as expressions
+* `do` keyword
+* ranges are probably not necessary, `slice` works fine on arrays
+* aliases are probably mostly unnecessary (i.e. `and`, `or`, `not`, `is`, `isnt`, `yes`, `no`, `on`, `off`). Should consider `in` (i.e. `'foo' in array` -> `array.indexOf('foo') !== -1`) - but maybe better named as `in` is already a js operator
+* `::` for prototype access
 
 # Drawbacks
 
