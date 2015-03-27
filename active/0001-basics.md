@@ -92,7 +92,7 @@ We will replace splats with the ES6 prefixed notation.
 
 ## Loops and Comprehensions
 
-We should compile to babel loops and comprehensions. `for of` needs resolving as this is (a) confusing anyway and (b) is a [completely different feature](https://babeljs.io/docs/learn-es6/#iterators-for-of) in babel
+We support babel loops and comprehensions.  All coffeescript loop-related features are to be removed.
 
 ## Array Slicing and Splicing with Ranges
 
