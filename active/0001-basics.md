@@ -54,20 +54,6 @@ Functions will look much the same as the do now in CS. Single arrow functions wi
 
 It would be good to (a) compile default arguments to babel default arguments and (b) replace splats with the spread operator. However splats are allowed at any argument position in CS but only as the final argument in babel.
 
-One thing to bear in mind is that babel arrows do not require braces around the argument if there is only a single one:
-
-```es6
-var odds = evens.map(v => v + 1);
-```
-
-Wheras in CS this would compile to (roughly):
-
-```js
-var odds = evens.map(v(function() { return v + 1 }));
-```
-
-It's probably worth keeping the CS behaviour here and enforcing the parens around single function arguments, as it's more consistent and will be less work, along with being more consistent.
-
 ## Objects and Arrays
 
 Objects and arrays would function similarly to the way they do now, with 2 deviations:
