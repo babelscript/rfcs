@@ -88,7 +88,7 @@ No major changes here.
 
 ## Splats...
 
-It would be nice to replace splats with the ES6 prefixed notation, and definitely compile to this.
+We will replace splats with the ES6 prefixed notation.
 
 ## Loops and Comprehensions
 
