@@ -104,7 +104,7 @@ No changes for now
 
 ## Operators and Aliases
 
-No changes for now, although it probably makes sense to deprecate some aliases at some point (i.e. maybe `and`, `or`, `not`, `is`, `isnt`, `yes`, `no`, `on`, `off`)
+We will deprecate all coffeescript aliases for removal in babelscript 1.0.
 
 ## The Existential Operator
 
